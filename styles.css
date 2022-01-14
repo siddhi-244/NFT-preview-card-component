@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    height: 100vh;
+}
+.card{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    padding: 15px;
+    height: 500px;
+    width: 320px;
+    border-radius: 10px;;
+
+}
+.equi-img{
+    width: 290px;
+    height: 280px;
+    border-radius: 10px;
+ 
+}
+p{
+    font-size: 18px;
+}
+.small{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+.avatar{
+    width: 30px;
+    margin-right: 15px;
+    /* margin-top: 5px; */
+    border:1px solid white;
+    border-radius: 15px;
+}
+.heading .up{
+    font-weight: 600;
+    margin:15px 0;
+}
+.down{
+    color:grey;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.line{
+    width: 100%;
+    /* border-top:none; */
+    border-bottom: 1px solid hsl(215, 32%, 27%);;
+    margin-bottom: 2px ;
+   
+}
+
+
+.special{
+    color: hsl(178, 100%, 50%) !important;
+    font-weight: 600 !important;
+    font-size: 17px !important;
+}
+.credits{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* justify-content: center; */
+}
+.credits-content{
+    color:grey;
+    font-size: 15px;
+}
+.name{
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+}
+.elements{
+    display: flex;
+    align-items: center;
+}
+.icons{
+    margin-right: 3px;
+}
+.icon-text{
+    color:grey;
+    font-size: 15px;
+}
+.att{
+    text-decoration: none;
+    color: white !important;
+}
+.att:hover ,
+.name:hover,
+.up:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%) !important;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: cyan;
+  }
+  .img-container{
+      position: relative;
+  }
+.img-container:hover .overlay {
+    opacity: .6;
+  }
+  .icon {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+@media (min-width : 375px and max-width:1440px){
+    .card{
+        width: 70%;
+    }
+}
+
