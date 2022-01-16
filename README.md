@@ -10,11 +10,8 @@
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 
 ## Overview
@@ -28,13 +25,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Screenshot (126)](https://user-images.githubusercontent.com/69195262/149514207-e29670f7-0990-4ff2-813b-8a70c83985e6.png)
+
 
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/siddhi-244/NFT-preview-card-component)
+- Live Site URL: [Live](https://siddhi-244.github.io/NFT-preview-card-component/)
 
 ## My process
 
